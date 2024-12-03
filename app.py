@@ -23,7 +23,6 @@ class Config:
     """Application Configuration Management"""
     SECRET_KEY = os.environ.get('SECRET_KEY') or os.urandom(32)
     MONGO_URI = os.environ.get('MONGO_URI')
-    #"mongodb+srv://mrvortex911:Vortex%4007@vortex.fr0lbf8.mongodb.net/diabetic_retinopathy?retryWrites=true&w=majority&appName=vortex")
     
     # Model Configuration
     MODEL_PATH = os.environ.get('MODEL_PATH','models/Updated-Xception-diabetic-retinopathy.h5' )
