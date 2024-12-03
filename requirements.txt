@@ -1,0 +1,11 @@
+flask
+flask-pymongo
+flask-bcrypt
+flask-limiter
+flask-cors
+tensorflow
+numpy
+werkzeug
+python-dotenv
+gunicorn
+pillow

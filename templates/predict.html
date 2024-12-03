@@ -1,0 +1,15 @@
+<!-- predict.html -->
+{% extends "base.html" %}
+{% block content %}
+<div class="container py-20">
+    <div class="max-w-xl mx-auto bg-white p-8 rounded-xl shadow-lg">
+        <h2 class="text-2xl font-bold mb-6 text-center">Upload Retinal Image</h2>
+        <form method="POST" enctype="multipart/form-data">
+            <div class="mb-4">
+                <input type="file" name="file" class="form-control" accept=".jpg,.jpeg,.png" required>
+            </div>
+            <button type="submit" class="btn btn-primary w-full">Analyze Image</button>
+        </form>
+    </div>
+</div>
+{% endblock %}
